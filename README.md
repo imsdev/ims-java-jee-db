@@ -79,7 +79,7 @@ From the Eclipse menu bar select **Windows -> Preferences -> Server -> Runtime E
 * Select **Browse** to point to the existing Liberty runtime installed earlier.
 * The dialog should look something like this screenshot after selecting the server runtime
 
-![libertyruntime](./media/new.server2.png)
+![libertyruntime](./media/new.server.png)
 
 * Click **Next**
 * **Finish**
