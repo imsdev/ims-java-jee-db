@@ -156,9 +156,8 @@ To test the application start the application by right-clicking the **ims-java-j
 * **Next**
 * **Finish**
 
-Send a REST http GET message to this destination
-
+Send a REST http GET message to this destination:
 ```
 http://localhost:9080/ims-java-jee-db/api/customer/info?customerNumber=4
 ```
-* Control the server from the Servers view by right-clicking the ims-java-jee-db server and selecting the option desired.
+* Manage the server from the Servers view in Eclipse by right-clicking the ims-java-jee-db server and selecting the action desired.
