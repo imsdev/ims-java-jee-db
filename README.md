@@ -5,9 +5,9 @@ The rest application will use the IMS Universal Drivers to connect to a IMS data
 
 See [Distributed and local connectivity with the IMS Universal drivers](https://www.ibm.com/support/knowledgecenter/en/SSEPH2_14.1.0/com.ibm.ims14.doc.apg/ims_odbhowodbworks.htm) for more information.
 
-IMS Universal Drivers for IMS V14 are available through the IMS Java On Demand FMID JMK1406.
+The needed IMS Universal Drivers for IMS V14 are available through the IMS Java On Demand FMID JMK1406.
 
-This example will use the INSUR01 database application.
+This example will use the Insurance database.
  
 ## Steps:
 1. Install WAS Liberty with Java EE 7 Full Platform
