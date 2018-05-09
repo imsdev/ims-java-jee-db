@@ -88,10 +88,9 @@ From the Eclipse menu bar select **Windows -> Preferences -> Server -> Runtime E
 ### Clone repository and import into Eclipse
 * From the Eclipse menu bar select **Windows -> Show view -> Other -> Git -> Git Repositories**
 * From **Git Repositories** view select **Clone a Git reository** and paste the repository URI:
-
-  ```
+*  `
   https://github.com/imsdev/ims-java-jee-db.git
-  ```
+  `
 * Click **Next**
 * **Next**
 * **Finish**
@@ -117,8 +116,7 @@ Edit the resourceAdapter tag to point to the location of the rar on your local w
 <resourceAdapter id="imsudbJXA" location="C:\Users\IBM_ADMIN\Documents\DevOps\rars\v14\imsudbJXA.rar"/>
 ```
 
-For more information regarding resource adapters see [IMS Universal Database resource adapter](https://www.ibm.com/support/knowledgecenter/en/SSEPH2_13.1.0/com.ibm.ims13.doc.apg/ims_odbjcatransactionmanagement.htm
-)
+For more information regarding resource adapters see [IMS Universal Database resource adapter](https://www.ibm.com/support/knowledgecenter/en/SSEPH2_14.1.0/com.ibm.ims14.doc.apg/ims_odbjcaintro.htm)
 
 ### Configure the connectionFactory properties
 * **datastoreServer** - The host name or the IP address of the IMS Connect data store server.
