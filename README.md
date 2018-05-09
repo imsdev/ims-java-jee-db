@@ -95,7 +95,7 @@ From the Eclipse menu bar select **Windows -> Preferences -> Server -> Runtime E
 
 To import the Maven project into Eclipse, from the **Git Repositories** view
 * Right-click the ims-java-jee-db repository and select **Import Project** and click **Finish**
- * After the projct is imported it will take several minutes to load the application, and server.
+ * After the project is imported it will take several minutes to load the application, and server.
 
 ## Configure the application
 
