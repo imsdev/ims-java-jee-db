@@ -125,7 +125,7 @@ For more information regarding resource adapters see [IMS Universal Database res
   * This value is speified in the ODBM CSLDCxxx PROCLIB member. 
   * It is the DATASTORE(NAME=name) or DATASTORE(NAME=name, ALIAS(NAME=aliasname)) parameter. If alias is specified in the member you must use the aliasname as the value of the **dataStoreName** property. 
 * **portNumber** - port number specified as the DRDAPORT parameter on the ODACCESS statement in the IMS Connect configuration PROCLIB member.  
-  * Example ODACCESS statement:
+  * Example ODACCESS statement from an IMS Connect config member:
 ```
 ODACCESS=(ODBMAUTOCONN=Y,IMSPLEX=(MEMBER=IMDOHWS,TMEMBER=PLXDO),
      DRDAPORT=(ID=6695,PORTTMOT=120000),ODBMTMOT=60000)
