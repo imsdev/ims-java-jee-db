@@ -78,9 +78,7 @@ From the Eclipse menu bar select **Windows -> Preferences -> Server -> Runtime E
 * Select Liberty Runtime from the IBM folder.
 * Select **Browse** to point to the existing Liberty runtime installed earlier.
 * The dialog should look something like this screenshot after selecting the server runtime
-
-![libertyruntime](./media/new.server.png)
-
+  ![libertyruntime](./media/new.server.png)
 * Click **Next**
 * **Finish**
 * **Apply and close**
@@ -88,7 +86,7 @@ From the Eclipse menu bar select **Windows -> Preferences -> Server -> Runtime E
 ### Clone repository and import into Eclipse
 * From the Eclipse menu bar select **Windows -> Show view -> Other -> Git -> Git Repositories**
 * From **Git Repositories** view select **Clone a Git reository** and paste the repository URI:
-*  `
+  *  `
   https://github.com/imsdev/ims-java-jee-db.git
   `
 * Click **Next**
@@ -141,6 +139,13 @@ Here is an example connectionFactory elcment:
 </connectionFactory>
 ```
 
+The jndiName attribute of the connectionFactory element is specified in the CustomerInfoService which uses it for executing SQL statements.
+```
+public class CustomerInfoService {
+	@Resource(name="INSURANCEDB")
+	DataSource insuranceDB;
+```
+To look at the complete class source [CustomerInfoService](https://github.com/imsdev/ims-java-jee-db/blob/master/src/main/java/com/ibm/ims/customer/info/CustomerInfoService.java)
 For more information [](
 https://www.ibm.com/support/knowledgecenter/en/SSEPH2_14.1.0/com.ibm.ims14.doc.apg/ims_odbjdbcdatasrcconn.htm	
 )
