@@ -14,7 +14,7 @@ This example will use the Insurance database.
 1. Install and set up Java 8 JDK
 1. Install and set up Eclipse Oxygen
    1. Add Websphere Developer Tools to Eclipse
-   1. Add Liberty Server to Eclipse
+   1. Configure Liberty Server to Eclipse
 1. Clone and import the the Java JEE Database example into Eclipse
 1. Test the application
 
@@ -51,6 +51,7 @@ This example will use the Insurance database.
 * If downloading the archive file, extract to a location of your choice.
 * Double-click the eclipse.exe file to open Eclipse.
   * Select a directory as a workspace
+  * Close the Welcome tab to access the workspace
 
 ### Set the Eclipse Java JDK
 * From the Eclipse menu bar select **Windows -> Preferences -> Java -> Installed JREs**
@@ -62,17 +63,21 @@ This example will use the Insurance database.
 * Under the Name column select the JDK just enabled
 * **Apply and close**
 					
-### Install Websphere Developer Tools (WDT) plugin into Eclipse
-* From the Eclipse menu bar select **Help -> Eclipse Marketplace...**
-* In the **Find** box type: `WDT` and hit enter.
-* Click the **Install** button for **IBM WebSphere Application Server V8.5x Developer Tools**
-* **Confirm**
-* Check the checkbox to accept the license
+### Install Websphere Developer Tools (WDT) plugin
+From the Eclipse menu bar select **Windows -> Preferences -> Server -> Runtime Environments**
+* Select **Add**
+* Type 'ibm' to search for the runtime
+* Select **WebSphere Application Server Liberty Profile Tools**
+  * If there already exists a 'Liberty Server' then go to the **Configure Liberty Profile server** step.
+* **Next**
+* Check the checkbox to accept the license.
 * **Finish** 
+  * It will prompt you to restart Eclipse when the install is complete.
+  * You can see the install progress in the status bar on the bottom right corner on Eclipse.
 * **Restart**
-* After the restart close the Welcome Overview tab
+* After the restart close the Welcome Overview tab.
 
-### Install Liberty Profile server into Eclipse
+### Configure Liberty Profile server
 From the Eclipse menu bar select **Windows -> Preferences -> Server -> Runtime Environments**
 * Select **Add**
 * Select Liberty Runtime from the IBM folder.
