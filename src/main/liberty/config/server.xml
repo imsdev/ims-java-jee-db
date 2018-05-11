@@ -30,8 +30,8 @@
     <resourceAdapter id="imsudbJXA" location="C:\Users\IBM_ADMIN\Documents\DevOps\rars\v13\imsudbJXA.rar"/>
 	
 	<connectionFactory jndiName="INSURANCEDB" >
-		<properties.imsudbJXA datastoreServer="9.30.132.181" portNumber="6695" dataStoreName="DODO" databaseName="INSUR01" 
-		driverType="4" password="paul" user="blink77"/>
+		<properties.imsudbJXA datastoreServer="9.30.101.101" portNumber="6695" dataStoreName="DODO" databaseName="INSUR01" 
+		driverType="4" password="xxxxxxxx" user="xxxxxxxx"/>
 	</connectionFactory>
 	
 </server>
