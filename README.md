@@ -1,5 +1,5 @@
 # Java JEE Database example
-In this sample we will set up a workspace IDE for creating a Java JEE Rest application the resides in Websphere Liberty and interfaces with an IMS DB. 
+In this sample we will set up a workspace IDE for creating a Java JEE Rest application that will reside in Websphere Liberty and interfaces with an IMS DB. 
 
 The rest application will use the IMS Universal Drivers to connect to a IMS database.  The Universal Drivers support both local, type-2, and distributed, type-4, connectivity to a database.  In this example the application will use the type-4 driver to connect to the database over TCP/IP.
 
